@@ -52,7 +52,6 @@ type TelegramInitData struct {
 }
 
 func New(ctx context.Context, next http.Handler, config *Config, name string) (http.Handler, error) {
-
 	if len(config.ProxyHeaderName) == 0 {
 		config.ProxyHeaderName = "injectedPayload"
 	}
