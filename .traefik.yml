@@ -1,0 +1,8 @@
+displayName: JWT Middleware Optional
+type: middleware
+import: github.com/savyjs/traefik-telegram-initdata-introspector
+summary: 'Authenticate and verify InitData from the Telegram MiniApp user within the authorization header, then add the decoded payload to the header for further processing'
+
+testData:
+  encodedHeader:
+    - "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ._XEngvIuxOcA-j7y_upRUbXli4DLToNf7HxH1XNmxSc"
