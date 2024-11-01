@@ -15,7 +15,7 @@ Start with command
 ```yaml
 command:
   - "--experimental.plugins.traefik-telegram-initdata-introspector.modulename=github.com/savyjs/traefik-telegram-initdata-introspector"
-  - "--experimental.plugins.traefik-telegram-initdata-introspector.version=v0.0.14"
+  - "--experimental.plugins.traefik-telegram-initdata-introspector.version=v0.0.15"
 ```
 
 Activate plugin in your config  
